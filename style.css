@@ -1,0 +1,61 @@
+:root {
+  /* Primary Colors */
+  /* Text */
+
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+
+  /* Neutral Colors */
+
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+
+  /* Typography */
+  --font-size: 1.75rem;
+
+  /* Font */
+  --Manrope: "Manrope", sans-serif;
+  color-scheme: light dark;
+}
+
+/* Use Board-Box Model */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Manrope);
+  background-color: var(--Dark-Blue);
+  /* background: linear-gradient(var(--Soft-violet), var(--Soft-blue)); */
+  color: var(--Light-Cyan);
+  font-size: var(--font-size);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100lvh;
+  overflow: auto;
+}
