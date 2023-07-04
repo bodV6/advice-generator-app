@@ -98,7 +98,7 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(var(--Neon-Green), var(--Neon-Green));
+  box-shadow: 0em 0em 2em 0.5em var(--Neon-Green);
   
   cursor: pointer;
 }
