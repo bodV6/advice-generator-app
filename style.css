@@ -84,7 +84,7 @@ main {
 .advice-text {
   font-size: 0.8em;
   line-height: 1.5;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .divider-images :last-child {
@@ -128,5 +128,6 @@ footer {
 
   .advice-text {
     font-size: 0.9em;
+    margin-bottom: 1.5em;
   }
 }
