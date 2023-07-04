@@ -15,8 +15,8 @@
   --font-size: 1.75rem;
 
   /* Font */
-  --Manrope: "Manrope", sans-serif;
-  color-scheme: light dark;
+  --Manrope: "Manrope" sans-serif;
+  /* color-scheme: light dark; */
 }
 
 /* Use Board-Box Model */
@@ -30,6 +30,7 @@ html {
   box-sizing: inherit;
 }
 
+body,
 h1,
 h2,
 h3,
@@ -45,17 +46,73 @@ img {
 
 body {
   padding: 0;
-  margin: 0;
   font-family: var(--Manrope);
   background-color: var(--Dark-Blue);
-  /* background: linear-gradient(var(--Soft-violet), var(--Soft-blue)); */
   color: var(--Light-Cyan);
   font-size: var(--font-size);
   font-weight: 800;
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   min-height: 100lvh;
   overflow: auto;
+}
+
+main {
+  text-align: center;
+  border-radius: 10px;
+  padding: 0 1em;
+  padding-top: 1.5em;
+  margin: auto 0.7em;
+  background-color: var(--Dark-Grayish-Blue);
+}
+
+#advice-id {
+  color: var(--Neon-Green);
+  font-size: 0.75em;
+  margin-bottom: 1.5em;
+}
+
+.advice-text {
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+.divider-images :last-child {
+  display: none;
+}
+/* .divider-images {
+  margin-bottom: 0.5em;
+  
+} */
+
+button {
+  background-color: var(--Neon-Green);
+  border-radius: 50%;
+  border: none;
+  padding: 1.5em;
+  position: relative;
+  top: 2.5em;
+}
+
+button:hover {
+  background: linear-gradient(var(--Neon-Green), var(--Neon-Green));
+  
+  cursor: pointer;
+}
+
+@media (width > 40em) {
+ 
+  main {
+    max-width: 16em;
+  }
+
+  .divider-images :first-child {
+    display: none;
+  }
+  .divider-images :last-child {
+    display: block;
+  }
 }
