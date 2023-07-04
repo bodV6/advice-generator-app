@@ -12,7 +12,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
@@ -35,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontEnd Mentor solution](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-using-only-htmlcssjs-lJHPMcKY4X)
 - Live Site URL: [Github page](https://bodv6.github.io/advice-generator-app/)
 
 ## My process
@@ -47,28 +46,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Vanilla javaScript
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
 
 ### Useful resources
 
